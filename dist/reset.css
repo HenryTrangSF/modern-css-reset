@@ -28,6 +28,7 @@ html {
 body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
+  word-break: break-word;
 }
 
 /* Remove default padding */
@@ -51,38 +52,6 @@ dl,
 dd {
   margin: 0;
 }
-
-/* Set the line height scale for h1 and h2 elements */
-h1,
-h2 {
-    line-height: calc(1ex / 0.42);
-    margin: calc(1ex / 0.42) 0;
-}
-
-/* Define the default h1 size */
-h1 {
-  font-size: 2.5em;
-}
-
-/* Define the default h2 size */
-h2 {
-    font-size: 2em;
-}
-
-/* Set the h3 defaults */
-h3 {
-    font-size: 1.75em;
-    line-height: calc(1ex / 0.38);
-    margin: calc(1ex / 0.38) 0;
-}
-
-/* Set the h4 defaults */
-h4 {
-    font-size: 1.5em;
-    line-height: calc(1ex / 0.37);
-    margin: calc(1ex / 0.37) 0;
-}
-
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],

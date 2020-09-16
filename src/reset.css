@@ -28,6 +28,7 @@ html {
 body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
+  word-break: break-word;
 }
 
 /* Remove default padding */
