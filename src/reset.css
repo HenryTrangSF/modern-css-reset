@@ -5,16 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Adds content visibility: auto to optimize rendering */
-@supports (content-visibility: auto) {
-  img,
-  picture,
-  video,
-  iframe {
-    content-visibility: auto;
-  }
-}
-
 /* Set core document defaults */
 html {
   scroll-behavior: smooth;
